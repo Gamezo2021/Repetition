@@ -5,7 +5,7 @@ public class Operation {
         int rangeStart = 2;
         int rangeEnd = 100;
 
-        System.out.println("Prime numbers between " + rangeStart + " and " + rangeEnd + ":");
+        System.out.println("Prime numbers between " + rangeStart + " and " + rangeEnd);
 
         for (int i = rangeStart; i <= rangeEnd; i++) {
             if (isPrime(i)) {
